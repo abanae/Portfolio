@@ -32,18 +32,18 @@ function Navbar() {
                   </Link>
               </li>
               <li className='navbaritems'>
-                  <Link to='/' className='navbarLinks' onClick={closeMenu}>
+                  <Link to='/projects' className='navbarLinks' onClick={closeMenu}>
                       Projects
                   </Link>
               </li>
               <li className='navbaritems'>
-                  <Link to='/' className='navbarLinks' onClick={closeMenu}>
-                     Contact Me
+                  <Link to='/resume' className='navbarLinks' onClick={closeMenu}>
+                     Resume
                   </Link>
               </li>
               <li className='navbaritems'>
-                  <Link to='/' className='navbarLinks' onClick={closeMenu}>
-                     Resume
+                  <Link to='/contact' className='navbarLinksContact' onClick={closeMenu}>
+                     Contact Me
                   </Link>
               </li>
           </ul>
