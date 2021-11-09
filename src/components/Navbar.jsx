@@ -5,10 +5,22 @@ import { Link } from "react-router-dom";
 function Navbar() {
     // Setting state for click 
     const [click, setClick]= useState(false);
+     // Setting state for Button 
+    const [button, setBtn] = useState(true);
     // Handle Click to reverse state
     const handleClick= ()=> setClick(!click);
    //Creating Func to close hamburger 
    const closeMenu= ()=> setClick(false);
+// Removes Button on screem higher or equal 960
+   const showBtn= ()=>{
+       if(window.innerWidth <= 960){
+       setBtn(false);
+   }else {
+       setBtn(true);
+   }
+};
+ //Display the Button on mobile devices
+window.addEventListener('resize', showBtn);
   return( 
   <>
   <nav className="navbar">
@@ -47,7 +59,9 @@ function Navbar() {
                   </Link>
               </li>
           </ul>
-          
+          {button && <Button btnStyle='btn--outline'>
+              SIGN UP
+              </Button>}
       </div>
   </nav>
   </>)
