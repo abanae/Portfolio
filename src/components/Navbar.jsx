@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Button } from "./Button";
 import "./Navbar.css";
@@ -20,7 +20,10 @@ function Navbar() {
       setBtn(true);
     }
   };
-  
+// Button to allow button to show up when refresh
+  useEffect(() => {
+    showBtn();
+  }, []);
 
   //Display the Button on mobile devices
   window.addEventListener("resize", showBtn);
