@@ -1,3 +1,4 @@
+import React from 'react';
 import '../../App.css';
 import MainPage from '../MainPage';
 
@@ -9,4 +10,4 @@ function Home() {
     )
 }
 
-export default HomePage;
+export default Home;
