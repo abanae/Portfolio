@@ -1,7 +1,8 @@
 import React from 'react'
-import {Button} from './Button'
+// import {Button} from './Button'
 import './MainPage.css';
 import '../App.css';
+import { Link } from 'react-router-dom';
 
 function MainPage() {
     return (
@@ -11,8 +12,9 @@ function MainPage() {
             <h1>Hello,</h1>
             <p>I'm a full-stack web developer,  focused on crafting clean & user‑friendly experiences.</p>
             <div className="mainBtn">
-                <Button className="btns" btnStyle='btn--outline'
-                btnSize='btn--large'>Check My Projects</Button>
+                <Link to='/projects'>
+                <button className="btns">Check My Projects</button>
+                </Link>
             </div>
         </div>
     )
