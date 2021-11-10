@@ -1,5 +1,5 @@
 import React from 'react'
-
+import {Button} from './Button'
 
 function MainPage() {
     return (
@@ -9,6 +9,9 @@ function MainPage() {
             <h1>Me!!</h1>
             <p>What I Do</p>
             <div className="mainBtn">
+                <Button className="btns" btnStyle='btn--outline'btnSize='btn--large'>
+                    Check Me Out
+                </Button>
             </div>
         </div>
     )
