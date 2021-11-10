@@ -1,6 +1,7 @@
 import React from 'react'
 import {Button} from './Button'
 import './MainPage.css';
+import '../App.css';
 
 function MainPage() {
     return (
