@@ -32,7 +32,7 @@ function Navbar() {
       <nav className="navbar">
         <div className="navContainer">
           {/* LogoRef */}
-          <Link to="/">
+          <Link to="/" onClick={closeMenu}>
             <img src={"images/moon.png"} alt="moon icon" />
           </Link>
           {/* Hamburger Menu */}
