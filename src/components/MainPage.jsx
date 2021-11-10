@@ -11,9 +11,10 @@ function MainPage() {
             <h1>Me!!</h1>
             <p>What I Do</p>
             <div className="mainBtn">
-                <Button className="btns" btnStyle='btn--outline'btnSize='btn--large'>
-                    Check Me Out
-                </Button>
+                <Button className="btns" btnStyle='btn--outline'
+                btnSize='btn--large'>Check Me Out</Button>
+                <Button className="btns" btnStyle='btn--primary'
+                btnSize='btn--large'>Lookie</Button>
             </div>
         </div>
     )
