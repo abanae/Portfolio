@@ -102,4 +102,31 @@
     line-height: 24px;
   }
   
+  @media only screen and (min-width: 1200px) {
+    .projectsContainer {
+      width: 84%;
+    }
+  }
   
+   @media only screen and (min-width: 1024px) {
+    .projectsItem {
+      display: flex;
+    }
+  }
+  
+  @media only screen and (max-width: 1024px) {
+    .projectItem {
+      margin-bottom: 2rem;
+    }
+  }
+  @media only screen and (max-width: 900px) {
+    .projectsItem {
+      display:block;
+    }
+    h1{
+      font-size: xxx-large;
+    }
+    .projectItemInfo {
+      padding: 20px 11px 30px;
+    }
+  }
