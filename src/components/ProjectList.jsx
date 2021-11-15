@@ -18,12 +18,12 @@ function ProjectList() {
                 <RecipeReviewCard
               date = 'August,2021'
               src='images/fakeStore.PNG'
+              alt="Really Good Fake Store"
               text="Our project is a mock e-commerce store using seeded data to simulate real e-commerce website. Users can
               login/logout & add/delete products from their shopping cart.
               "
               label='Really Good Fake Store'
               buttonDeploy= 'https://really-good-fake-store.herokuapp.com/'
-              labelGithub='Github'
               buttonUrl= 'https://github.com/abanae/Really-Good-Fake-Store'
             />
           </ul>

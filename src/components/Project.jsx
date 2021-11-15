@@ -1,4 +1,3 @@
-
 import * as React from "react";
 import { styled } from "@mui/material/styles";
 import Card from "@mui/material/Card";
@@ -10,7 +9,7 @@ import Collapse from "@mui/material/Collapse";
 import IconButton from "@mui/material/IconButton";
 import Typography from "@mui/material/Typography";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
-import Button from '@mui/material/Button';
+import Button from "@mui/material/Button";
 
 const ExpandMore = styled((props) => {
   const { expand, ...other } = props;
@@ -32,19 +31,16 @@ export default function RecipeReviewCard(props) {
 
   return (
     <Card sx={{ maxWidth: 345 }}>
-      <CardHeader
-        title={props.label}
-        subheader={props.date}
-      />
+      <CardHeader title={props.label} subheader={props.date} />
       <CardMedia
         component="img"
         height="194"
-       image={props.src}
-        alt="Really Good Fake Store"
+        image={props.src}
+        alt={props.alt}
       />
       <CardContent>
         <Typography variant="body2" color="text.secondary">
-        {props.text}
+          {props.text}
         </Typography>
       </CardContent>
       <CardActions disableSpacing>
@@ -70,11 +66,22 @@ export default function RecipeReviewCard(props) {
             stirring occasionally until lightly browned, 6 to 8 minutes.
           </Typography>
           <CardActions>
-        <Button size="small">Github</Button>
-        <Button size="small">Deployed Site</Button>
-      </CardActions>
+            <Button  
+            href={props.buttonUrl}
+            target="_blank"
+            size="small">
+              Github
+            </Button>
+            <Button 
+            href={props.buttonDeploy}
+            target="_blank"
+            size="small">
+              Deployed Site
+            </Button>
+          </CardActions>
         </CardContent>
       </Collapse>
     </Card>
   );
 }
+
