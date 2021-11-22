@@ -35,7 +35,7 @@ function Navbar() {
           {/* LogoRef */}
           <Link to="/" onClick={closeMenu}>
             <img src={"images/moon.png"} alt="moon icon" />
-            <p style={{ color: "white", underline: "none", marginLeft: '6vw', marginTop: '-2vw'}}>Home</p>
+            <p style={{ color: "white", underline: "none", marginLeft: '4.3vw', marginTop: '-2vw'}}>Home</p>
           </Link>
           {/* Hamburger Menu */}
           <div className="menuIcon" onClick={handleClick}>

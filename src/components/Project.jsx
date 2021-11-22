@@ -30,9 +30,10 @@ export default function RecipeReviewCard(props) {
   };
 
   return (
-    <Card sx={{ maxWidth: 345 }}>
+    <Card className="card"
+     sx={{ maxWidth: 345 }}>
       <CardHeader title={props.label} subheader={props.date} />
-      <CardMedia
+      <CardMedia className="projectItemImg"
         component="img"
         height="194"
         image={props.src}
@@ -43,7 +44,8 @@ export default function RecipeReviewCard(props) {
           {props.text}
         </Typography>
       </CardContent>
-      <CardActions disableSpacing>
+      <CardActions style={{background: "#eee"}}
+      disableSpacing>
         <ExpandMore
           expand={expanded}
           onClick={handleExpandClick}

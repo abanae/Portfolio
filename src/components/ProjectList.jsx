@@ -8,7 +8,7 @@ function ProjectList() {
             <h1>Check out my work!</h1>
             <div className='projectsContainer'>
      <div className='projectsWrapper'>
-          <ul className='projectsItem'>
+          <ul className='projectsItem1'>
             <RecipeReviewCard
               label='The Social Petwork'
               date = 'October,2021'
@@ -17,9 +17,9 @@ function ProjectList() {
               text="This project is a social media application for pets! The user can signup/login, make post, like posts and view the timeline. The user can also edit or delete their own posts"
               buttonDeploy= 'https://serene-tundra-79280.herokuapp.com/registerpage'
               buttonUrl= 'https://github.com/abanae/The-Social-Petwork'
-              
-             
             />
+             </ul>
+            <ul className='projectsItem1'>
                 <RecipeReviewCard
               label='Really Good Fake Store'
               date = 'August,2021'
@@ -32,7 +32,7 @@ function ProjectList() {
               buttonUrl= 'https://github.com/abanae/Really-Good-Fake-Store'
             />
           </ul>
-          <ul className='projectsItem'>
+          <ul className='projectsItem2'>
             <RecipeReviewCard
               label='Guess My Number'
               date = 'November,2021'
@@ -42,6 +42,8 @@ function ProjectList() {
               buttonDeploy= 'https://abanae.github.io/Guess-My-Number-Game/'
               buttonUrl= 'https://github.com/abanae/Guess-My-Number-Game' 
             />
+            </ul>
+             <ul className='projectsItem2'>
             <RecipeReviewCard
               label='Urban Cipher'
               date = 'June,2021'
@@ -51,6 +53,8 @@ function ProjectList() {
               buttonDeploy= 'https://maximosandoval.github.io/urban-cipher/'
               buttonUrl= 'https://github.com/abanae/urban-cipher'
             />
+            </ul>
+             <ul className='projectsItem2'>
             <RecipeReviewCard
               label='Tech Blog' 
               date = 'August,2021'
