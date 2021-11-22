@@ -73,7 +73,9 @@ function Navbar() {
           {button && <Button btnStyle="btn--outline">Contact Me</Button>}
         </div>
       </nav>
+      
     </>
+
   );
 }
 

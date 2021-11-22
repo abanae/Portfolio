@@ -1,55 +1,33 @@
-import React from 'react';
-import './Footer.css';
-import { Button } from './Button';
-import { Link } from 'react-router-dom';
+import React from "react";
+import "./Footer.css";
 
 function Footer() {
   return (
-    <div className='footer-container'>
-      {/* <section className='footer-subscription'>
-        <p className='footer-subscription-text'>
-          You can unsubscribe at any time.
-        </p>
-        <div className='input-areas'>
-          <form>
-            <input
-              className='footer-input'
-              name='email'
-              type='email'
-              placeholder='Your Email'
-            />
-            <Button buttonStyle='btn--outline'>Subscribe</Button>
-          </form>
-        </div>
-      </section> */}
-      <section class='social-media'>
-        <div class='social-media-wrap'>
-          <small class='website-rights'>Ana Abad © 2021</small>
-          <div class='social-icons'>
-            <Link
-              class='social-icon-link youtube'
-              to='/'
-              target='_blank'
-              aria-label='Email'
+    <div className="footer-container">
+      <section class="social-media">
+        <div class="social-media-wrap">
+          <small class="website-rights">Ana Abad © 2021</small>
+          <div class="social-icons">
+            <a
+              class="social-icon-link email"
+              href="mailto:aabad0464@gmail.com"
             >
-              <i class='fas fa-envelope' />
-            </Link>
-            <Link
-              class='social-icon-link twitter'
-              to='/'
-              target='_blank'
-              aria-label='GitHub'
+              <i class="fas fa-envelope" />
+            </a>
+            <a
+              className="social-icon-link github"
+              href="https://github.com/abanae"
+              target="_blank"
             >
-              <i class='fab fa-github' />
-            </Link>
-            <Link
-              class='social-icon-link twitter'
-              to='/'
-              target='_blank'
-              aria-label='LinkedIn'
+              <i class="fab fa-github" />
+            </a>
+            <a
+              className="social-icon-link linkedin"
+              href="https://www.linkedin.com/in/anaeabad/"
+              target="_blank"
             >
-              <i class='fab fa-linkedin' />
-            </Link>
+              <i class="fab fa-linkedin" />
+            </a>
           </div>
         </div>
       </section>
