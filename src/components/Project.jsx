@@ -59,13 +59,10 @@ export default function RecipeReviewCard(props) {
         <CardContent>
           <Typography paragraph>Method:</Typography>
           <Typography paragraph>
-            Heat 1/2 cup of the broth in a pot until simmering, add saffron and
-            set aside for 10 minutes.
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus non ab tempora, dolores vero nostrum soluta. Ad consectetur natus, vitae magnam, corporis aperiam voluptatibus unde deserunt perferendis odio eveniet!
           </Typography>
           <Typography paragraph>
-            Heat oil in a (14- to 16-inch) paella pan or a large, deep skillet
-            over medium-high heat. Add chicken, shrimp and chorizo, and cook,
-            stirring occasionally until lightly browned, 6 to 8 minutes.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure facere reprehenderit commodi, ea a facilis rem accusamus delectus ab dolorum quam est vero modi dicta, et sequi praesentium. Earum, possimus.
           </Typography>
           <CardActions>
             <Button  
