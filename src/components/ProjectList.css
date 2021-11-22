@@ -28,17 +28,18 @@
   .projectsItem1{
     margin: auto;
   display: inline-block;
-  /* margin-left: 5vw; */
-  transform: translate(50%, -9%);
+  padding-bottom: inherit;
+  transform: translate(50%, 0%);
   }
  
   .projectsWrapper {
     position: relative;
     margin: 50px 0 45px;
-    /* box-shadow: 0 12px 18px -5px #6484a4; */
+    padding: 3vw 2vw;
     box-shadow: blue 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px, rgb(31, 193, 27) 10px -10px, rgb(255, 255, 255) 20px -20px 0px -3px, rgb(255, 217, 19) 20px -20px, rgb(255, 255, 255) 30px -30px 0px -3px, rgb(255, 156, 85) 30px -30px, rgb(255, 255, 255) 40px -40px 0px -3px, rgb(255, 85, 85) 40px -40px;
   }
   .projectItemImg{
+    cursor: auto;
     position: relative;
     top: 0;
     right: 0;
