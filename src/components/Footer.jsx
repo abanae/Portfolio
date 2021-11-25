@@ -17,6 +17,7 @@ function Footer() {
             <a
               className="social-icon-link github"
               href="https://github.com/abanae"
+              rel="noreferrer"
               target="_blank"
             >
               <i class="fab fa-github" />
@@ -24,6 +25,7 @@ function Footer() {
             <a
               className="social-icon-link linkedin"
               href="https://www.linkedin.com/in/anaeabad/"
+              rel="noreferrer"
               target="_blank"
             >
               <i class="fab fa-linkedin" />

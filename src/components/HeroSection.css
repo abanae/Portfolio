@@ -1,0 +1,41 @@
+
+.heroSection {
+  display: flex;
+}
+
+/* Create two equal columns that sits next to each other */
+.column1,
+.column2 {
+  flex: 50%;
+  padding: 10px;
+  background: #393855;
+}
+
+.column1 {
+  
+  line-height: 1.2;
+  box-sizing: inherit;
+  padding-left: 15rem;
+}
+
+.column2 {
+  box-sizing: inherit;
+  padding: 0;
+}
+
+.column {
+background: #149acb;
+  height: 5rem;
+  transform: skewY(2deg);
+  transform-origin: left center;
+  width: 100%;
+  position: absolute;
+  bottom: -82px;
+}
+
+.headShot{
+    height:100vh !important;
+   cursor:auto;
+}
+
+
