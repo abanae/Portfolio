@@ -12,8 +12,8 @@ function HeroSection() {
           <h2
           style={{color: "#a0bbbe", fontSize:"1.5rem", marginTop:"4rem"}}
           >Hi! I'm Ana Abad.</h2>
-          <p
-          style={{color: 'white', fontSize:"8rem", fontFamily: "Impact, fantasy"}}
+          <p 
+          style={{color: 'white',  fontFamily: "Impact, fantasy"}}
           >FULL STACK WEB DEVELOPER IN DENVER.</p>
         </div>
         <div class="column2">
