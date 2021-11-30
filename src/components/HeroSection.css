@@ -1,6 +1,7 @@
 
 .heroSection {
   display: flex;
+  margin-top: .4%;
 }
 
 /* Create two equal columns that sits next to each other */
@@ -32,11 +33,11 @@
 .column {
 background: #149acb;
   height: 5rem;
-  transform: skewY(2deg);
+  transform: skewY(3deg);
   transform-origin: left center;
   width: 100%;
-  position: absolute;
-  bottom: -82px;
+  position: inherit;
+  /* bottom: -82px; */
 }
 
 .headShot{

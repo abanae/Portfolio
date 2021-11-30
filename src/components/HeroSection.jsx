@@ -15,6 +15,31 @@ function HeroSection() {
           <p 
           style={{color: 'white',  fontFamily: "Impact, fantasy"}}
           >FULL STACK WEB DEVELOPER IN DENVER.</p>
+          <div class="social-media-wrap">
+          <div class="social-icons">
+            <a
+              className="social-icon-link github"
+              href="https://github.com/abanae"
+              target="_blank"
+            >
+              <i class="fab fa-github"/>
+            </a>
+            <a
+              className="social-icon-link linkedin"
+              href="https://www.linkedin.com/in/anaeabad/"
+              target="_blank"
+            >
+              <i class="fab fa-linkedin"/>
+            </a>
+            <a
+              class="social-icon-link resume"
+              href="/resume/AnaAbad.pdf"
+              target="_blank"
+            >
+              <i class="far fa-file" />
+            </a>
+          </div>
+        </div>
         </div>
         <div class="column2">
         <img className="headShot" src="/images/image2.jpeg" alt="head-shot"></img>

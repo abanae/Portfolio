@@ -5,7 +5,7 @@ import RecipeReviewCard from './Project';
 function ProjectList() {
     return (
         <div className='projects'>
-            <h1>Check out my work!</h1>
+            <h1>Check Out My Work</h1>
             <div className='projectsContainer'>
      <div className='projectsWrapper'>
           <ul className='projectsItem1'>

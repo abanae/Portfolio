@@ -10,7 +10,7 @@ function Home() {
         <>
         <MainPage/>
         <HeroSection/>
-        {/* <ProjectList/> */}
+        <ProjectList/>
         <Footer/>
         </>
     )

@@ -32,7 +32,7 @@ export default function RecipeReviewCard(props) {
   return (
     <Card className="card"
      sx={{ maxWidth: 345 }}>
-      <CardHeader title={props.label} subheader={props.date} />
+      <CardHeader style={{backgroundColor: "#dcdddd"}} title={props.label} subheader={props.date} />
       <CardMedia className="projectItemImg"
         component="img"
         height="194"
@@ -44,7 +44,7 @@ export default function RecipeReviewCard(props) {
           {props.text}
         </Typography>
       </CardContent>
-      <CardActions style={{background: "#eee"}}
+      <CardActions style={{background: "#949595"}}
       disableSpacing>
         <ExpandMore
           expand={expanded}
@@ -52,7 +52,7 @@ export default function RecipeReviewCard(props) {
           aria-expanded={expanded}
           aria-label="show more"
         >
-          <ExpandMoreIcon />
+          <ExpandMoreIcon/>
         </ExpandMore>
       </CardActions>
       <Collapse in={expanded} timeout="auto" unmountOnExit>

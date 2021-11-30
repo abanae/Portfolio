@@ -13,6 +13,10 @@
     color: #fff;
     font-size: 24px;
   }
+  .social-icon-link:hover {
+    filter:invert(0.5) sepia(1);
+    font-size:2rem;
+  }
   
   .social-media {
     max-width: 1000px;
