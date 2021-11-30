@@ -54,6 +54,12 @@ background: rgb(148, 149, 149);
 
 
 /* Media Queries */
+@media only screen and (min-width: 1800px) {
+  .column{
+    transform: skewY(
+      2deg);
+  }
+}
 @media only screen and (max-width: 960px) {
   .heroSection{
     display:block;
