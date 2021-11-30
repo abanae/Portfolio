@@ -1,6 +1,6 @@
  .projects {
-    padding: 4rem;
-    background: linear-gradient(to right, #8c8ba2, #333172);
+    /* padding: 4rem; */
+    background: linear-gradient(to right, #f3f3f3, #9897a6);
     display: grid;
   }
   /* background: linear-gradient(to right, #27bdea, #400c47); */
@@ -24,6 +24,7 @@
     margin-bottom: 24px;
     padding: 10px; 
     display: table-cell;
+    padding-bottom: 5rem;
     
   }
 
@@ -64,6 +65,39 @@
 .projectItemImg:hover {
   transform: scale(1.1);
 }
+
+@media only screen and (max-width: 960px) {
+  .projectsWrapper{
+    display: contents;
+  }
+  .projectsItem1 {
+    transform: inherit;
+}
+.projectsItem1, 
+.projectsItem2 {
+ padding-bottom: 5rem;
+}
+}
+@media only screen and (max-width: 550px) {
+  
+h1 {
+  font-size: 4rem;
+}
+.projects {
+  padding: 1rem;
+}
+ 
+  .projectsWrapper{
+    display: contents;
+   
+  }
+  .projectsItem1,
+  .projectsItem2{
+    padding-left: revert;
+}
+
+}
+
 
 /* div:nth-child(4) {
   background: #eee;
@@ -129,34 +163,7 @@
     line-height: 24px;
   } 
    */
-  /* @media only screen and (min-width: 1200px) {
-    .projectsContainer {
-      width: 84%;
-    }
-  }
   
-   @media only screen and (min-width: 1024px) {
-    .projectsItem {
-      display: flex;
-    }
-  }
-  
-  @media only screen and (max-width: 1024px) {
-    .projectItem {
-      margin-bottom: 2rem;
-    }
-  }
-  @media only screen and (max-width: 900px) {
-    .projectsItem {
-      display:block;
-    }
-    h1{
-      font-size: xxx-large;
-    }
-    .projectItemInfo {
-      padding: 20px 11px 30px;
-    }
-  } */
   
    /* #projectLinks1::after {
     content: attr(data-category);

@@ -31,8 +31,8 @@
 }
 
 .column {
-background: #149acb;
-  height: 5rem;
+background: rgb(148, 149, 149);
+  height: 6rem;
   transform: skewY(3deg);
   transform-origin: left center;
   width: 100%;
