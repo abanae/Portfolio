@@ -20,7 +20,7 @@ function Navbar() {
       setBtn(true);
     }
   };
-// Button to allow button to show up when refresh
+  // Button to allow button to show up when refresh
   useEffect(() => {
     showBtn();
   }, []);
@@ -34,7 +34,16 @@ function Navbar() {
           {/* LogoRef */}
           <Link to="/" onClick={closeMenu}>
             <img src={"images/moon.png"} alt="moon icon" />
-            <p style={{ color: "white", underline: "none", marginLeft: '4.3vw', marginTop: '-2vw'}}>Home</p>
+            <p
+              style={{
+                color: "white",
+                underline: "none",
+                marginLeft: "4.3vw",
+                marginTop: "-2vw",
+              }}
+            >
+              Home
+            </p>
           </Link>
           {/* Hamburger Menu */}
           <div className="menuIcon" onClick={handleClick}>
@@ -53,9 +62,17 @@ function Navbar() {
               </Link>
             </li>
             <li className="navItems">
-              <Link to="/resume" className="navLinks" onClick={closeMenu}>
+              {/* <Link to="/resume" className="navLinks" onClick={closeMenu}>
                 Resume
-              </Link>
+              </Link> */}
+              <a
+                className="navLinks"
+                href="/resume/AnaAbad.pdf"
+                target="_blank"
+                onClick={closeMenu}
+              >
+                Resume
+              </a>
             </li>
             <li>
               <Link
@@ -70,9 +87,7 @@ function Navbar() {
           {button && <Button btnStyle="btn--outline">Contact Me</Button>}
         </div>
       </nav>
-      
     </>
-
   );
 }
 
