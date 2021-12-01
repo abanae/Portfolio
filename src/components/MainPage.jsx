@@ -1,5 +1,6 @@
 import React from 'react'
 // import {Button} from './Button'
+import 'animate.css';
 import './MainPage.css';
 import '../App.css';
 
@@ -16,3 +17,5 @@ function MainPage() {
 }
 
 export default MainPage;
+
+

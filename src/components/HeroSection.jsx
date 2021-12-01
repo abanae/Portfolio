@@ -21,6 +21,7 @@ function HeroSection() {
               className="social-icon-link github"
               href="https://github.com/abanae"
               target="_blank"
+              rel="noreferrer"
             >
               <i class="fab fa-github"/>
             </a>
@@ -28,6 +29,7 @@ function HeroSection() {
               className="social-icon-link linkedin"
               href="https://www.linkedin.com/in/anaeabad/"
               target="_blank"
+              rel="noreferrer"
             >
               <i class="fab fa-linkedin"/>
             </a>
