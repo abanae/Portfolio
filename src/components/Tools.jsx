@@ -1,10 +1,11 @@
 import React from 'react'
+import './Tools.css';
 
 function Tools() {
     return (
-        <section class="container">
+<section class="container">
   
-  <h3>I'm a web developer and here's what I can do</h3>
+  <h3>Tools</h3>
   <figure class="chart" data-percent="75">
     <figcaption>HTML</figcaption>
      <img class="html" src="https://dl.dropboxusercontent.com/s/68gv23q4y5qyq52/html5.svg"></img>
