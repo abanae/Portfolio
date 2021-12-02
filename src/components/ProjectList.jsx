@@ -1,14 +1,20 @@
-import React from 'react';
+import React, {useEffect }from 'react';
 import './ProjectList.css';
 import RecipeReviewCard from './Project';
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 
 function ProjectList() {
+  useEffect(()=> {
+    Aos.init({duration: 2000});
+  }, [])
+
     return (
         <div className='projects'>
-            <h1>Check Out My Work</h1>
+            <h1 data-aos='fade-up'>Check Out My Work</h1>
             <div className='projectsContainer'>
-     <div className='projectsWrapper'>
+     <div data-aos="zoom-in" className='projectsWrapper'>
           <ul className='projectsItem1'>
             <RecipeReviewCard
               label='The Social Petwork'
