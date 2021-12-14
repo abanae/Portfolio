@@ -1,47 +1,97 @@
-import React from 'react'
-import './Tools.css';
+import React from "react";
+import "./Tools.css";
 
 function Tools() {
-    return (
-<section class="container">
-  
-  <h3>Tools</h3>
-  <figure class="chart" data-percent="75">
-    <figcaption>HTML</figcaption>
-     <img class="html" src="https://dl.dropboxusercontent.com/s/68gv23q4y5qyq52/html5.svg"></img>
-    <svg width="200" height="200">
-      <circle class="outer" cx="95" cy="95" r="85" transform="rotate(-90, 95, 95)"/>
-    </svg>
-  </figure>
-  
-
-  <figure class="chart" data-percent="75">
-    <figcaption>CSS</figcaption>
-    <img class="css" src="https://dl.dropboxusercontent.com/s/gftbpqje9h2jvlv/css3.svg"></img>
-    <svg width="200" height="200">
-      <circle class="outer" cx="95" cy="95" r="85" transform="rotate(-90, 95, 95)"/>
-    </svg>
-  </figure>
-  
-  
-
-  <figure class="chart" data-percent="50">
-    <figcaption>Javascript</figcaption>
-    <img class="javascript" src="https://dl.dropboxusercontent.com/s/jsp3rsberc4q650/javascript.svg"></img>
-    <svg width="200" height="200">
-      <circle class="outer" cx="95" cy="95" r="85" transform="rotate(-90, 95, 95)"/>
-    </svg>
-  </figure>
- 
-  <figure class="chart" data-percent="25">
-    <figcaption>Node</figcaption>
-    <img class="node" src="https://dl.dropboxusercontent.com/s/v28zws1p38tjph2/node.png"></img>
-    <svg width="200" height="200">
-      <circle class="outer" cx="95" cy="95" r="85" transform="rotate(-90, 95, 95)"/>
-    </svg>
-  </figure>
-</section>
-    )
+  return (
+    <section class="container">
+      <h3>Tools</h3>
+      <figure class="chart" data-percent="75">
+        <figcaption>fig1</figcaption>
+        <img
+          class="html"
+          src='images/HTML5.png'
+          alt="html SVG"
+        ></img>
+        <svg width="190" height="200">
+          <circle
+            class="outer"
+            cx="95"
+            cy="95"
+            r="85"
+            transform="rotate(-90, 95, 95)"
+          />
+        </svg>
+      </figure>
+      <figure class="chart" data-percent="75">
+        <figcaption>fig2</figcaption>
+        <img
+          class="css"
+          src='images/CSS.PNG'
+          alt="CSS SVG"
+        ></img>
+        <svg width="190" height="200">
+          <circle
+            class="outer"
+            cx="95"
+            cy="95"
+            r="85"
+            transform="rotate(-90, 95, 95)"
+          />
+        </svg>
+      </figure>
+      <figure class="chart" data-percent="50">
+        <figcaption>fig3</figcaption>
+        <img
+          class="javascript"
+          src='images/JS-Png.png'
+          alt="JS SVG"
+        ></img>
+        <svg width="190" height="200">
+          <circle
+            class="outer"
+            cx="95"
+            cy="95"
+            r="85"
+            transform="rotate(-90, 95, 95)"
+          />
+        </svg>
+      </figure>
+      <figure class="chart" data-percent="35">
+        <figcaption>fig4</figcaption>
+        <img
+          class="node"
+          src='images/node.png'
+          alt="NODE SVG"
+        ></img>
+        <svg width="190" height="200">
+          <circle
+            class="outer"
+            cx="95"
+            cy="95"
+            r="85"
+            transform="rotate(-90, 95, 95)"
+          />
+        </svg>
+      </figure>
+      <figure class="chart" data-percent="35">
+        <figcaption>fig5</figcaption>
+        <img
+          class="react"
+          src='images/reactIcon.svg'
+          alt="React SVG"
+        ></img>
+        <svg width="190" height="200">
+          <circle
+            class="outer"
+            cx="95"
+            cy="95"
+            r="85"
+            transform="rotate(-90, 95, 95)"
+          />
+        </svg>
+      </figure>
+    </section>
+  );
 }
 
-export default Tools
+export default Tools;

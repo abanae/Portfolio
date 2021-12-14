@@ -5,31 +5,50 @@
     text-align: center;
   }
   
+  /* Black Circles */
   .chart {
+    margin-right: 21px;
     position: relative;
     display: inline-block;
-    color: #999;
     font-size: 20px;
-    text-align: center;
   }
-  
+
+  /* Gray inner circle */
   .chart figcaption {
-    padding: 50px 25px;
-    width: 100px;
-    height: 50px;
+    padding: 50px 58px;
     border: 20px solid #f0f0f0;
     border-radius: 100px;
     line-height: 50px;
   }
-  
+  .chart svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .outer {
+    fill: transparent;
+    stroke: #333;
+    stroke-width: 20;
+    stroke-dasharray: 534;
+    transition: stroke-dashoffset 1s;
+    /* -webkit-animation-play-state: running; */
+    
+    /* firefox bug fix - won't rotate at 90deg angles */
+    /* -moz-transform: rotate(-89deg) translateX(-190px); */
+  }
+  .chart:hover .outer {
+    stroke-dashoffset: 534 !important;
+    /* -webkit-animation-play-state: paused; */
+  }
+  /* Image */
   .chart img {
     position: absolute;
     max-width: 100px;
     max-height: 100px;
     background: white;
   }
-  /* END Container styles */
-  
+
   /* Colors for the circles and positions for the graphics */
   .html {
     top: 50px;
@@ -39,10 +58,9 @@
   .html + svg .outer {
     stroke: #e34f26;
   }
-  
   .css {
-    top: 55px;
-    left: 48px;
+    top: 50px;
+    left: 58px;
   }
   
   .css + svg .outer {
@@ -53,7 +71,7 @@
     max-width: 90px;
     max-height: 90px;
     top: 45px;
-    left: 45px;
+    left: 55px;
   }
   
   .javascript + svg .outer {
@@ -70,60 +88,48 @@
   .node + svg .outer {
     stroke: #83cd29;
   }
-  
-  .chart svg {
-    position: absolute;
-    top: 0;
-    left: 0;
+  .react {
+    width: 200px;
+    height: 200px;
+    top: 45px;
+    left: 45px;
   }
   
-  .outer {
-    fill: transparent;
-    stroke: #333;
-    stroke-width: 20;
-    stroke-dasharray: 534;
-    transition: stroke-dashoffset 1s;
-    -webkit-animation-play-state: running;
-    
-    /* firefox bug fix - won't rotate at 90deg angles */
-    -moz-transform: rotate(-89deg) translateX(-190px);
+  .react + svg .outer {
+    stroke: #56b4e0;
   }
   
-  .chart:hover .outer {
-    stroke-dashoffset: 534 !important;
-    -webkit-animation-play-state: paused;
-  }
-  /* END Circle colors and graphic positions */
+    /* END Circle colors and graphic positions */
   
   
   /* Set the initial values for the animation */
-  .chart[data-percent='100'] .outer {
+  /* .chart[data-percent='100'] .outer {
     stroke-dashoffset: 0;
     -webkit-animation: show100 2s;
     animation: show100 2s;
-  }
+  } */
   
   .chart[data-percent='75'] .outer {
-    stroke-dashoffset: 133;
+    stroke-dashoffset: 95;
     -webkit-animation: show75 2s;
     animation: show75 2s;
   }
   
   .chart[data-percent='50'] .outer {
-    stroke-dashoffset: 267;
+    stroke-dashoffset: 220;
     -webkit-animation: show50 2s;
     animation: show50 2s;
   }
   
-  .chart[data-percent='25'] .outer {
-    stroke-dashoffset: 401;
-    -webkit-animation: show25 2s;
-    animation: show25 2s;
+  .chart[data-percent='35'] .outer {
+    stroke-dashoffset: 261;
+    -webkit-animation: show35 2s;
+    animation: show35 2s;
   }
   /* END set initial animation values */
   
   /* Keyframes for the initial animation */
-  @-webkit-keyframes show100 {
+  /* @-webkit-keyframes show100 {
     from {
       stroke-dashoffset: 537;
     }
@@ -141,7 +147,7 @@
     to {
       stroke-dashoffset: 0;
     }
-  }
+  } */
   
   @-webkit-keyframes show75 {
     from {
@@ -149,7 +155,7 @@
     }
     
     to {
-      stroke-dashoffset: 134;
+      stroke-dashoffset: 95;
     }
   }
   
@@ -159,7 +165,7 @@
     }
     
     to {
-      stroke-dashoffset: 124;
+      stroke-dashoffset: 95;
     }
   }
   
@@ -169,7 +175,7 @@
     }
     
     to {
-      stroke-dashoffset: 267;
+      stroke-dashoffset: 220;
     }
   }
   
@@ -179,27 +185,27 @@
     }
     
     to {
-      stroke-dashoffset: 267;
+      stroke-dashoffset: 220;
     }
   }
   
-  @-webkit-keyframes show25 {
+  @-webkit-keyframes show35 {
     from {
       stroke-dashoffset: 537;
     }
     
     to {
-      stroke-dashoffset: 401;
+      stroke-dashoffset: 261;
     }
   }
   
-  @keyframes show25 {
+  @keyframes show35 {
     from {
       stroke-dashoffset: 537;
     }
     
     to {
-      stroke-dashoffset: 401;
+      stroke-dashoffset: 261;
     }
   }
   /* END Keyframes for the initial animation */
