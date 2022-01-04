@@ -31,16 +31,16 @@ export default function RecipeReviewCard(props) {
 
   return (
     <Card className="card"
-     sx={{ maxWidth: 345 }}>
+     sx={{ maxWidth: 645 }}>
       <CardHeader style={{backgroundColor: "#dcdddd"}} title={props.label} subheader={props.date} />
+      <CardContent className="cardContent">
       <CardMedia className="projectItemImg"
         component="img"
         height="194"
         image={props.src}
         alt={props.alt}
       />
-      <CardContent>
-        <Typography variant="body2" color="text.secondary">
+        <Typography variant="body2" color="text.secondary" pl="1.5vw" >
           {props.text}
         </Typography>
       </CardContent>

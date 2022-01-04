@@ -14,8 +14,8 @@ function ProjectList() {
         <div className='projects'>
             <h1 data-aos='fade-up'>Check Out My Work</h1>
             <div className='projectsContainer'>
-     <div data-aos="zoom-in" className='projectsWrapper'>
-          <ul className='projectsItem1'>
+     <div>
+          <ul data-aos='slide-right' className='projectsItem0'>
             <RecipeReviewCard
               label='The Social Petwork'
               date = 'October,2021'
@@ -26,7 +26,7 @@ function ProjectList() {
               buttonUrl= 'https://github.com/abanae/The-Social-Petwork'
             />
              </ul>
-            <ul className='projectsItem1'>
+            <ul data-aos='slide-left'className='projectsItem1'>
                 <RecipeReviewCard
               label='Really Good Fake Store'
               date = 'August,2021'
@@ -39,7 +39,7 @@ function ProjectList() {
               buttonUrl= 'https://github.com/abanae/Really-Good-Fake-Store'
             />
           </ul>
-          <ul className='projectsItem2'>
+          <ul data-aos='slide-right' className='projectsItem0'>
             <RecipeReviewCard
               label='Guess My Number'
               date = 'November,2021'
@@ -50,7 +50,7 @@ function ProjectList() {
               buttonUrl= 'https://github.com/abanae/Guess-My-Number-Game' 
             />
             </ul>
-             <ul className='projectsItem2'>
+             <ul data-aos='slide-left'className='projectsItem1'>
             <RecipeReviewCard
               label='Urban Cipher'
               date = 'June,2021'
@@ -61,7 +61,7 @@ function ProjectList() {
               buttonUrl= 'https://github.com/abanae/urban-cipher'
             />
             </ul>
-             <ul className='projectsItem2'>
+             <ul data-aos='slide-right' className='projectsItem0'>
             <RecipeReviewCard
               label='Tech Blog' 
               date = 'August,2021'
@@ -79,3 +79,5 @@ function ProjectList() {
 }
 
 export default ProjectList;
+
+// data-aos="zoom-in" className='projectsWrapper'
