@@ -51,15 +51,15 @@
 display:flex;
   }
 
-.card{
+/* .card{
   margin-right: 15px;
-}
+} */
 
 .projectItemImg:hover {
   transform: scale(1.1);
 }
 
-@media only screen and (max-width: 960px) {
+/* @media only screen and (max-width: 960px) {
   .projectsWrapper{
     display: contents;
   }
@@ -68,39 +68,27 @@ display:flex;
     transform: inherit;
     padding-bottom: 5rem;
 }
-/* .projectsItem1 {
- padding-bottom: 5rem;
-} */
-}
-@media only screen and (max-width: 550px) {
-  
-h1 {
-  font-size: 4rem;
-}
-.projects {
-  padding: 1rem;
-}
- 
-  .projectsWrapper{
-    display: contents;
-   
-  }
-  .projectsItem0,
-  .projectsItem1{
-    padding-left: revert;
-}
 
+} */
+@media only screen and (max-width: 550px) {
+  .cardContent{
+    display: block;
+  }
+  .projectItemImg{
+    margin-bottom:10vw;
+  }
 }
 
 .Iam {
   padding: 2em 5em;
-  font: normal 40px/50px Montserrat, sans-serif;
+  /* font: normal 40px/50px Montserrat, sans-serif; */
   color: #999;
 }
 .Iam p {
   height: 50px;
   float: left;
   margin-right: 0.3em;
+  padding-top: 2.5rem;
 }
 .Iam b {
   float: left;
@@ -119,11 +107,11 @@ h1 {
 
 
 /*animation*/
--webkit-animation:move 10s;
-   -moz-animation:move 10s;
-    -ms-animation:move 10s;
-     -o-animation:move 10s;
-        animation:move 10s;
+-webkit-animation:move 5s;
+   -moz-animation:move 5s;
+    -ms-animation:move 5s;
+     -o-animation:move 5s;
+        animation:move 5s;
 /*animation-iteration-count*/
 -webkit-animation-iteration-count:infinite;
    -moz-animation-iteration-count:infinite;

@@ -12,20 +12,20 @@ function ProjectList() {
   return (
     <div className="projects">
       {/* <h1 data-aos='fade-up'>Check Out My Work</h1> */}
-      <div class="Iam">
+      {/* <div class="Iam">
         <p>Here is </p>
         <b>
           <div class="innerIam">
-            my projects,
+            my creations
             <br />
             my work,
             <br />
-            how I learn stuff
+            my projects,
             <br />
-            how we do it
+            how I learn stuff
           </div>
         </b>
-      </div>
+      </div> */}
       <div className="projectsContainer">
         <div>
           <ul data-aos="slide-right" className="projectsItem0">
