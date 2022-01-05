@@ -31,7 +31,7 @@
 }
 
 .column {
-background: rgb(148, 149, 149);
+background: #f1ecda;
   height: 6rem;
   transform: skewY(3deg);
   transform-origin: left center;
