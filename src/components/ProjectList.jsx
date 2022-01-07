@@ -12,7 +12,8 @@ function ProjectList() {
   return (
     <div className="projects">
       {/* <h1 data-aos='fade-up'>Check Out My Work</h1> */}
-      {/* <div class="Iam">
+      <div className="projectsContainer">
+        {/* <div class="Iam">
         <p>Here is </p>
         <b>
           <div class="innerIam">
@@ -26,9 +27,8 @@ function ProjectList() {
           </div>
         </b>
       </div> */}
-      <div className="projectsContainer">
         <div>
-          <ul data-aos="slide-right" className="projectsItem0">
+          <ul data-aos="fade-up" className="projectsItem1">
             <RecipeReviewCard
               label="The Social Petwork"
               date="October,2021"
@@ -39,7 +39,7 @@ function ProjectList() {
               buttonUrl="https://github.com/abanae/The-Social-Petwork"
             />
           </ul>
-          <ul data-aos="slide-left" className="projectsItem1">
+          <ul data-aos="fade-up" className="projectsItem1">
             <RecipeReviewCard
               label="Really Good Fake Store"
               date="August,2021"
@@ -52,7 +52,7 @@ function ProjectList() {
               buttonUrl="https://github.com/abanae/Really-Good-Fake-Store"
             />
           </ul>
-          <ul data-aos="slide-right" className="projectsItem0">
+          <ul data-aos="fade-up" className="projectsItem1">
             <RecipeReviewCard
               label="Guess My Number"
               date="November,2021"
@@ -63,7 +63,7 @@ function ProjectList() {
               buttonUrl="https://github.com/abanae/Guess-My-Number-Game"
             />
           </ul>
-          <ul data-aos="slide-left" className="projectsItem1">
+          <ul data-aos="fade-up" className="projectsItem1">
             <RecipeReviewCard
               label="Urban Cipher"
               date="June,2021"
@@ -74,7 +74,7 @@ function ProjectList() {
               buttonUrl="https://github.com/abanae/urban-cipher"
             />
           </ul>
-          <ul data-aos="slide-right" className="projectsItem0">
+          <ul data-aos="fade-up" className="projectsItem1">
             <RecipeReviewCard
               label="Tech Blog"
               date="August,2021"

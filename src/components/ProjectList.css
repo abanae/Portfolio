@@ -1,14 +1,14 @@
  .projects {
     /* padding: 4rem; */
     background: #f1ecda;
-    display: grid;
+    /* display: grid; */
   }
   /* background: linear-gradient(to right, #27bdea, #400c47); */
-  h1 {
+  /* h1 {
     text-align: center;
     margin: revert;
     color:rgb(19, 18, 18);
-  }
+  } */
  
   .projectsContainer {
     display: flex;
