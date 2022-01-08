@@ -13,7 +13,7 @@ function ProjectList() {
     <div className="projects">
       {/* <h1 data-aos='fade-up'>Check Out My Work</h1> */}
       <div className="projectsContainer">
-        {/* <div class="Iam">
+        <div class="Iam">
         <p>Here is </p>
         <b>
           <div class="innerIam">
@@ -26,8 +26,8 @@ function ProjectList() {
             how I learn stuff
           </div>
         </b>
-      </div> */}
-        <div>
+      </div>
+        <div class="projectCont">
           <ul data-aos="fade-up" className="projectsItem1">
             <RecipeReviewCard
               label="The Social Petwork"
