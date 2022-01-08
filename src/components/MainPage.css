@@ -10,7 +10,7 @@ video{
 }
 
 .mainContainer{
-    height: 40vh;
+    height: 20vh;
     width: 100%;
     display: flex;
     justify-content: center;
