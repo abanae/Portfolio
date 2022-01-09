@@ -4,7 +4,7 @@ import "./Tools.css";
 function Tools() {
   return (
     <section class="container">
-      <h3>Tools</h3>
+      <h3>Skills & Experience</h3>
       <figure class="chart" data-percent="75">
         <figcaption>fig1</figcaption>
         <img

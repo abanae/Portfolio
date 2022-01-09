@@ -11,21 +11,25 @@ function ProjectList() {
 
   return (
     <div className="projects">
-      {/* <h1 data-aos='fade-up'>Check Out My Work</h1> */}
       <div className="projectsContainer">
         <div class="Iam">
-        <p>Here is </p>
-        <b>
-          <div class="innerIam">
-            my creations
-            <br />
-            my work,
-            <br />
-            my projects,
-            <br />
-            how I learn stuff
-          </div>
-        </b>
+          <p>Here is </p>
+          <b>
+            <div class="innerIam">
+              my creations
+              <br />
+              my work,
+              <br />
+              my projects,
+              <br />
+              how I learn stuff
+            </div>
+          </b>
+        </div>
+        <div class="fadeText">
+        <h1>My Portfolio</h1>
+        <span> A small gallery of recent projects I've collaborated with talent individuals like myself.</span>
+        <span> Interested to see more? Visit my Github page.</span>
       </div>
         <div class="projectCont">
           <ul data-aos="fade-up" className="projectsItem1">
