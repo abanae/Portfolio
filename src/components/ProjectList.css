@@ -285,14 +285,15 @@ h1:hover {
     height: 7vw;
   }
 }
-/* @media only screen and (max-width: 960px) {
-  .projectsWrapper{
-    display: contents;
+@media only screen and (min-width: 960px) {
+  .fadeText {
+    padding: 10vw 10vw;
   }
-  .projectsItem0,
-  .projectsItem1 {
-    transform: inherit;
-    padding-bottom: 5rem;
+  .fadeText h1 {
+    font-size: 3.5vw;
+  
+  }
+  .fadeText span {
+    font-size: 1.5vw;
+  }
 }
-
-} */
