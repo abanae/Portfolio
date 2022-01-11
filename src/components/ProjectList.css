@@ -71,7 +71,8 @@ display:flex;
 } 
 
 .fadeText{
-  padding: 2vw 15vw;
+  transform: skewY( 358deg);
+  padding: 5vw 5vw;
   margin-top: -5vw;
   margin-bottom: 7vw;
   text-align: left;
