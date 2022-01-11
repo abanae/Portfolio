@@ -63,8 +63,15 @@ display:flex;
 
 .fadeText{
   text-align: center;
+  background: rgba(0,0,0,0.5);
 }
 
+.fadeText:hover{
+  /* animation: fadeIn linear 3s; */
+  cursor: pointer;
+  background: #f1ecda;
+  opacity: 1;
+}
 
 .Iam {
   padding: 20vw 0vw;
