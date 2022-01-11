@@ -60,8 +60,18 @@ display:flex;
 .projectItemImg:hover {
   transform: scale(1.1);
 }
+.fadeText h1{
+    font-size: larger;
+    color: #e74c3c;
+} 
+.fadeText span{
+  display: -webkit-inline-box;
+    font-size: x-large;
+    color: white;
+} 
 
 .fadeText{
+  padding: 2vw 15vw;
   margin-top: -5vw;
   margin-bottom: 7vw;
   text-align: left;
@@ -169,6 +179,9 @@ display:flex;
   .projectItemImg{
     margin-bottom:10vw;
   }
+  .fadeText span{
+    line-height:2;
+  } 
   .Iam{ 
     padding: 40vw 15vw;
     font-size:13vw;

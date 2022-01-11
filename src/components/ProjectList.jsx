@@ -28,7 +28,9 @@ function ProjectList() {
         </div>
         <div class="fadeText">
         <h1>My Portfolio</h1>
-        <span> A small gallery of recent projects I've collaborated with talent individuals like myself.Interested to see more? Visit my Github page.</span>
+        <span> 
+        After discovering my passion for web development, I couldn’t get enough. I made websites with colleagues, and enrolled on a fast phase coding boot camp.Here's a small gallery of recent projects.
+        </span>
       </div>
         <div class="projectCont">
           <ul data-aos="fade-up" className="projectsItem1">
