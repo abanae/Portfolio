@@ -27,11 +27,24 @@ function ProjectList() {
           </b>
         </div>
         <div class="fadeText">
-        <h1>My Portfolio</h1>
-        <span> 
-        After discovering my passion for web development, I couldn’t get enough. I made websites with colleagues, and enrolled on a fast phase coding boot camp.Here's a small gallery of recent projects.
-        </span>
-      </div>
+          {/* <h1>My Portfolio</h1> */}
+          <h1>M</h1>
+          <h1>y</h1>
+          <br/>
+          <h1>P</h1>
+          <h1>r</h1>
+          <h1>o</h1>
+          <h1>j</h1>
+          <h1>e</h1>
+          <h1>c</h1>
+          <h1>t</h1>
+          <h1>s</h1>
+          <span>
+            After discovering my passion for web development, I couldn’t get
+            enough. I made websites with colleagues, and enrolled on a fast
+            phase coding boot camp.Here's a small gallery of recent projects.
+          </span>
+        </div>
         <div class="projectCont">
           <ul data-aos="fade-up" className="projectsItem1">
             <RecipeReviewCard
