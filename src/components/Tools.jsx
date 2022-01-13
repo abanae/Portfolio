@@ -3,8 +3,11 @@ import "./Tools.css";
 
 function Tools() {
   return (
-    <section class="container">
+    <div className="toolCont">
+      <div class="toolTitle">
       <h3>Skills & Experience</h3>
+      </div>
+      <div class="tools">
       <figure class="chart" data-percent="75">
         <figcaption>fig1</figcaption>
         <img
@@ -90,7 +93,8 @@ function Tools() {
           />
         </svg>
       </figure>
-    </section>
+      </div>
+    </div>
   );
 }
 

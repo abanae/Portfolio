@@ -40,7 +40,7 @@ export default function RecipeReviewCard(props) {
         image={props.src}
         alt={props.alt}
       />
-        <Typography variant="body2" color="text.secondary" pl="2vw" >
+        <Typography  color="text.secondary" pl="2vw" >
           {props.text}
         </Typography>
       </CardContent>
