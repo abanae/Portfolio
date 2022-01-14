@@ -4,7 +4,7 @@ import "./Tools.css";
 function Tools() {
   return (
     <div className="toolCont">
-      <div class="toolTitle">
+      <div class="toolInfo">
       <h3>Skills & Experience</h3>
       <span>
       Full-stack web developer with a background in Sales dedicated to building and optimizing the customer experience.Leverage technical, analytical, and problem-solving skills to create dynamic, high-speed websites, apps, and software platforms fueling competitive advantage and revenue growth.

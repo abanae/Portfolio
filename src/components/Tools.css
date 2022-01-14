@@ -5,6 +5,11 @@
     text-align: center;
     display: flex;
   }
+  .toolInfo,
+  .tools{
+    width: 50%;
+  }
+
   
   /* Black Circles */
   .chart {
@@ -213,5 +218,9 @@
   @media only screen and (max-width: 550px) {
     .toolCont{
       display: block;
+    }
+    .toolInfo,
+    .tools{
+      width: 100%;
     }
   }
