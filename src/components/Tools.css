@@ -9,7 +9,30 @@
   .tools{
     width: 50%;
   }
-
+/* Paragraph */
+  .toolInfo h1 {
+    font-size: xxx-large;
+    color: #e74c3c;
+    text-align: center;
+    display: inline-block;
+  
+  }
+  .toolInfo,
+  .fadeText  {
+    transform: skewY(358deg);
+    padding: 5vw 5vw;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: left;
+    background: #999;
+  }
+  .toolInfo span,
+.fadeText span {
+  padding-top: 1.5rem;
+  display: -webkit-inline-box;
+  font-size: x-large;
+  color: white;
+}
   
   /* Black Circles */
   .chart {

@@ -61,19 +61,8 @@
   text-align: center;
   display: inline-block;
 }
-.fadeText span {
-  display: -webkit-inline-box;
-  font-size: x-large;
-  color: white;
-}
 
 .fadeText {
-  transform: skewY(358deg);
-  padding: 5vw 5vw;
-  margin-top: -5vw;
-  margin-bottom: 7vw;
-  text-align: left;
-  background: #999;
   opacity: 0.5;
 }
 

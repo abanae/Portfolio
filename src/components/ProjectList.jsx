@@ -40,9 +40,10 @@ function ProjectList() {
           <h1>t</h1>
           <h1>s</h1>
           <span>
-            After discovering my passion for web development, I couldn’t get
-            enough. I made websites with colleagues, and enrolled on a fast
-            phase coding boot camp.Here's a small gallery of recent projects.
+          A small gallery of recent projects I've created with the collaboration of other creative developers. Improving website navigation and content quality. I've created successful responsive applications that are fast and easy to use while implementing best practices. I'm constantly evolving as I discover new technologies & apply them to my work. I love learning new tools and taking on new challenges.
+            </span>
+            <span>
+            Want to see more? visit my Github
           </span>
         </div>
         <div class="projectCont">
