@@ -9,6 +9,13 @@
   .tools{
     width: 50%;
   }
+  .tools{
+    transform: skewY(2deg);
+    padding: 5vw 5vw;
+    margin-top: 0;
+    margin-bottom: 0;
+    background: rgb(226, 232, 236);
+  }
 /* Paragraph */
   .toolInfo h1 {
     font-size: xxx-large;
