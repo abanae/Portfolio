@@ -41,6 +41,11 @@
   color: white;
 }
   
+
+figure {
+  padding-bottom: 2.5rem;
+  padding-right: 2rem;
+}
   /* Black Circles */
   .chart {
     margin-right: 21px;
