@@ -1,9 +1,10 @@
 /* Container styles */
   .toolCont {
-    background-color: #f3f3f3;
-    padding: 50px 0;
+    background-color: #f1ecda;
+    /* padding: 50px 0; */
     text-align: center;
     display: flex;
+    padding-bottom: 10vw;
   }
   .toolInfo,
   .tools{

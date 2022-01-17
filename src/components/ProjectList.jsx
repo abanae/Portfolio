@@ -43,7 +43,8 @@ function ProjectList() {
           A small gallery of recent projects I've created with the collaboration of other creative developers. Improving website navigation and content quality. I've created successful responsive applications that are fast and easy to use while implementing best practices. I'm constantly evolving as I discover new technologies & apply them to my work. I love learning new tools and taking on new challenges.
             </span>
             <span>
-            Want to see more? visit my Github
+            Want to see more? Visit my <a href="https://github.com/abanae" target="_blank"
+            rel="noreferrer">Github</a> 
           </span>
         </div>
         <div class="projectCont">
