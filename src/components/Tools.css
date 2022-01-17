@@ -259,4 +259,9 @@ figure {
     .tools{
       width: 100%;
     }
+    .tools{
+      transform: skewY(357deg);
+      padding-top: 25vw;
+      padding-left: 20vw;
+    }
   }

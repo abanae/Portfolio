@@ -68,7 +68,6 @@
 }
 
 .fadeText:hover {
-  cursor: pointer;
   opacity: 3;
 }
 h1:hover {

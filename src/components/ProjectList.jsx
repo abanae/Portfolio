@@ -44,7 +44,9 @@ function ProjectList() {
             </span>
             <span>
             Want to see more? Visit my <a href="https://github.com/abanae" target="_blank"
-            rel="noreferrer">Github</a> 
+            rel="noreferrer"
+            style={{color: "blue"}}
+            >Github</a> 
           </span>
         </div>
         <div class="projectCont">
