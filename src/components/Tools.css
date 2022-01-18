@@ -1,177 +1,192 @@
 /* Container styles */
-  .toolCont {
-    background-color: #f1ecda;
-    /* padding: 50px 0; */
-    text-align: center;
-    display: flex;
-    padding-bottom: 10vw;
-  }
-  .toolInfo,
-  .tools{
-    width: 50%;
-  }
-  .tools{
-    transform: skewY(2deg);
-    padding: 5vw 5vw;
-    margin-top: 0;
-    margin-bottom: 0;
-    background: rgb(226, 232, 236);
-  }
+.toolCont {
+  background-color: #f1ecda;
+  /* padding: 50px 0; */
+  text-align: center;
+  display: flex;
+  padding-bottom: 10vw;
+}
+.toolInfo,
+.tools {
+  width: 50%;
+}
+.tools {
+  transform: skewY(2deg);
+  padding: 5vw 5vw;
+  margin-top: 0;
+  margin-bottom: 0;
+  background: rgb(226, 232, 236);
+}
 /* Paragraph */
-  .toolInfo h1 {
-    font-size: xxx-large;
-    color: #e74c3c;
-    text-align: center;
-    display: inline-block;
-  
-  }
-  .toolInfo,
-  .fadeText  {
-    transform: skewY(358deg);
-    padding: 5vw 5vw;
-    margin-top: 0;
-    margin-bottom: 0;
-    text-align: left;
-    background: #999;
-  }
-  .toolInfo span,
+.toolInfo h1{
+  font-size: xxx-large;
+  color: #e74c3c;
+  text-align: center;
+  display: inline-block;
+}
+.toolInfo,
+.fadeText {
+  transform: skewY(358deg);
+  padding: 5vw 5vw;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: left;
+  background: #999;
+}
+.toolInfo span,
 .fadeText span {
   padding-top: 1.5rem;
   display: -webkit-inline-box;
   font-size: x-large;
   color: white;
 }
-  
-
+/* SVG Animation */
 figure {
   padding-bottom: 2.5rem;
   padding-right: 2rem;
 }
-  /* Black Circles */
-  .chart {
-    margin-right: 21px;
-    position: relative;
-    display: inline-block;
-    font-size: 20px;
-  }
+/* Black Circles */
+.chart {
+  margin-right: 21px;
+  /* margin-right: -20vw; */
+  position: relative;
+  display: inline-block;
+  font-size: 20px;
+}
 
-  /* Gray inner circle */
-  .chart figcaption {
-    padding: 50px 58px;
-    border: 20px solid #f0f0f0;
-    border-radius: 100px;
-    line-height: 50px;
-  }
-  .chart svg {
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
+/* Gray inner circle */
+.chart figcaption {
+  padding: 50px 58px;
+  border: 20px solid #f0f0f0;
+  border-radius: 100px;
+  line-height: 50px;
+}
+.chart svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 
-  .outer {
-    fill: transparent;
-    stroke: #333;
-    stroke-width: 20;
-    stroke-dasharray: 534;
-    transition: stroke-dashoffset 1s;
-    /* -webkit-animation-play-state: running; */
-    
-    /* firefox bug fix - won't rotate at 90deg angles */
-    /* -moz-transform: rotate(-89deg) translateX(-190px); */
-  }
-  .chart:hover .outer {
-    stroke-dashoffset: 534 !important;
-    /* -webkit-animation-play-state: paused; */
-  }
-  /* Image */
-  .chart img {
-    position: absolute;
-    max-width: 100px;
-    max-height: 100px;
-    background: white;
-  }
+.outer {
+  fill: transparent;
+  stroke: #333;
+  stroke-width: 20;
+  stroke-dasharray: 534;
+  transition: stroke-dashoffset 1s;
+  /* -webkit-animation-play-state: running; */
 
-  /* Colors for the circles and positions for the graphics */
-  .html {
-    top: 50px;
-    left: 45px;
-  }
-  
-  .html + svg .outer {
-    stroke: #e34f26;
-  }
-  .css {
-    top: 50px;
-    left: 58px;
-  }
-  
-  .css + svg .outer {
-    stroke: #0d84ce;
-  }
-  
-  .javascript {
-    max-width: 90px;
-    max-height: 90px;
-    top: 45px;
-    left: 55px;
-  }
-  
-  .javascript + svg .outer {
-    stroke: #f0e040;
-  }
-  
-  .node {
-    width: 200px;
-    height: 200px;
-    top: 45px;
-    left: 45px;
-  }
-  
-  .node + svg .outer {
-    stroke: #83cd29;
-  }
-  .react {
-    width: 200px;
-    height: 200px;
-    top: 45px;
-    left: 45px;
-  }
-  
-  .react + svg .outer {
-    stroke: #56b4e0;
-  }
-  
-    /* END Circle colors and graphic positions */
-  
-  
-  /* Set the initial values for the animation */
-  /* .chart[data-percent='100'] .outer {
+  /* firefox bug fix - won't rotate at 90deg angles */
+  /* -moz-transform: rotate(-89deg) translateX(-190px); */
+}
+.chart:hover .outer {
+  stroke-dashoffset: 534 !important;
+  /* -webkit-animation-play-state: paused; */
+}
+/* Image */
+.chart img {
+  position: absolute;
+  max-width: 100px;
+  max-height: 100px;
+  background: white;
+}
+
+/* Colors for the circles and positions for the graphics */
+.html {
+  top: 50px;
+  left: 45px;
+}
+
+.html + svg .outer {
+  stroke: #e34f26;
+}
+.css {
+  top: 50px;
+  left: 58px;
+}
+
+.css + svg .outer {
+  stroke: #0d84ce;
+}
+
+.javascript {
+  max-width: 90px;
+  max-height: 90px;
+  top: 45px;
+  left: 55px;
+}
+
+.javascript + svg .outer {
+  stroke: #f0e040;
+}
+
+.node {
+  width: 200px;
+  height: 200px;
+  top: 45px;
+  left: 45px;
+}
+
+.node + svg .outer {
+  stroke: #83cd29;
+}
+.react {
+  width: 200px;
+  height: 200px;
+  top: 45px;
+  left: 45px;
+}
+
+.react + svg .outer {
+  stroke: #56b4e0;
+}
+
+/* END Circle colors and graphic positions */
+
+/* Set the initial values for the animation */
+/* .chart[data-percent='100'] .outer {
     stroke-dashoffset: 0;
     -webkit-animation: show100 2s;
     animation: show100 2s;
   } */
-  
-  .chart[data-percent='75'] .outer {
-    stroke-dashoffset: 95;
-    -webkit-animation: show75 2s;
-    animation: show75 2s;
-  }
-  
-  .chart[data-percent='50'] .outer {
-    stroke-dashoffset: 220;
-    -webkit-animation: show50 2s;
-    animation: show50 2s;
-  }
-  
-  .chart[data-percent='35'] .outer {
-    stroke-dashoffset: 261;
-    -webkit-animation: show35 2s;
-    animation: show35 2s;
-  }
-  /* END set initial animation values */
-  
-  /* Keyframes for the initial animation */
-  /* @-webkit-keyframes show100 {
+
+.chart[data-percent="75"] .outer {
+  stroke-dashoffset: 95;
+  -webkit-animation: show75 2s;
+  animation: show75 2s;
+}
+
+.chart[data-percent="50"] .outer {
+  stroke-dashoffset: 220;
+  -webkit-animation: show50 2s;
+  animation: show50 2s;
+}
+
+.chart[data-percent="35"] .outer {
+  stroke-dashoffset: 261;
+  -webkit-animation: show35 2s;
+  animation: show35 2s;
+}
+/* Hidden Captions */
+.hide {
+  display: none;
+  inline-size: fit-content;
+  border: 5px double #b4b8bf;
+  float: right;
+  font-family: cursive;
+  padding: .5vw .5vw;
+  background: white;
+}
+    
+.chart:hover + .hide {
+  display: block;
+  /* display: inline; */
+  color: #4287f5;
+  font-size: 1vw;
+}
+/* END set initial animation values */
+
+/* Keyframes for the initial animation */
+/* @-webkit-keyframes show100 {
     from {
       stroke-dashoffset: 537;
     }
@@ -190,78 +205,84 @@ figure {
       stroke-dashoffset: 0;
     }
   } */
-  
-  @-webkit-keyframes show75 {
-    from {
-      stroke-dashoffset: 537;
-    }
-    
-    to {
-      stroke-dashoffset: 95;
-    }
+
+@-webkit-keyframes show75 {
+  from {
+    stroke-dashoffset: 537;
   }
-  
-  @keyframes show75 {
-    from {
-      stroke-dashoffset: 537;
-    }
-    
-    to {
-      stroke-dashoffset: 95;
-    }
+
+  to {
+    stroke-dashoffset: 95;
   }
-  
-  @-webkit-keyframes show50 {
-    from {
-      stroke-dashoffset: 537;
-    }
-    
-    to {
-      stroke-dashoffset: 220;
-    }
+}
+
+@keyframes show75 {
+  from {
+    stroke-dashoffset: 537;
   }
-  
-  @keyframes show50 {
-    from {
-      stroke-dashoffset: 537;
-    }
-    
-    to {
-      stroke-dashoffset: 220;
-    }
+
+  to {
+    stroke-dashoffset: 95;
   }
-  
-  @-webkit-keyframes show35 {
-    from {
-      stroke-dashoffset: 537;
-    }
-    
-    to {
-      stroke-dashoffset: 261;
-    }
+}
+
+@-webkit-keyframes show50 {
+  from {
+    stroke-dashoffset: 537;
   }
-  
-  @keyframes show35 {
-    from {
-      stroke-dashoffset: 537;
-    }
-    
-    to {
-      stroke-dashoffset: 261;
-    }
+
+  to {
+    stroke-dashoffset: 220;
   }
-  /* END Keyframes for the initial animation */
-  @media only screen and (max-width: 550px) {
-    .toolCont{
-      display: block;
-    }
-    .toolInfo,
-    .tools{
-      width: 100%;
-    }
-    .tools{
-      transform: skewY(357deg);
-      padding-top: 25vw;
-      padding-left: 20vw;
-    }
+}
+
+@keyframes show50 {
+  from {
+    stroke-dashoffset: 537;
   }
+
+  to {
+    stroke-dashoffset: 220;
+  }
+}
+
+@-webkit-keyframes show35 {
+  from {
+    stroke-dashoffset: 537;
+  }
+
+  to {
+    stroke-dashoffset: 261;
+  }
+}
+
+@keyframes show35 {
+  from {
+    stroke-dashoffset: 537;
+  }
+
+  to {
+    stroke-dashoffset: 261;
+  }
+}
+/* END Keyframes for the initial animation */
+@media only screen and (max-width: 550px) {
+  .toolCont {
+    display: block;
+  }
+  .toolInfo,
+  .tools {
+    width: 100%;
+  }
+  .tools {
+    transform: skewY(357deg);
+    padding-top: 25vw;
+    padding-left: 20vw;
+  }
+  .hide {
+    padding: 2.5vw 1.5vw;
+  }
+  .chart:hover + .hide {
+    font-size: 3vw;
+  }
+}
