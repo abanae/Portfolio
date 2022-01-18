@@ -46,11 +46,11 @@ export default function RecipeReviewCard(props) {
       </CardContent>
       <CardActions style={{background: "#949595"}}
       disableSpacing>
+      <Typography style={{paddingLeft:"33.5vw"}}>Read More</Typography>
         <ExpandMore
           expand={expanded}
           onClick={handleExpandClick}
           aria-expanded={expanded}
-          aria-label="show more"
         >
           <ExpandMoreIcon/>
         </ExpandMore>
