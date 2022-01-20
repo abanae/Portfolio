@@ -71,6 +71,7 @@
   opacity: 3;
 }
 h1:hover {
+  color: #05fdd8;
   -webkit-animation-name: shake;
   -ms-animation-name: shake;
   -ms-animation-duration: 1000ms;

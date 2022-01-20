@@ -6,6 +6,7 @@ import Footer from '../Footer';
 import HeroSection from '../HeroSection';
 import Tools from '../Tools';
 import About from '../About';
+import ContactMe from '../ContactMe';
 
 function Home() {
     return(
@@ -15,6 +16,7 @@ function Home() {
         <ProjectList/>
         <Tools/>
         <About/>
+        <ContactMe/>
         <Footer/>
         </>
     )

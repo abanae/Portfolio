@@ -3,9 +3,8 @@ import "./About.css";
 
 function About() {
   return (
-    <div className="aboutCont">
+    <div className="checkerboard">
     About Me
-    
     </div>
   );
 }
