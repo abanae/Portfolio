@@ -23,6 +23,9 @@ function ContactMe() {
               <Grid xs={12} item>
                   <TextField type="number" label="Phone Number" placeholder="Enter Phone Number" variant="outlined" fullWidth required/>
               </Grid>
+              <Grid xs={12} item>
+                  <TextField multiline rows={5} label="Message" placeholder="Type Your Message" variant="outlined" fullWidth required/>
+              </Grid>
           </Grid>
       </CardContent>
   </Card>
