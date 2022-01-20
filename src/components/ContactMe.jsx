@@ -20,6 +20,9 @@ function ContactMe() {
               <Grid xs={12} item>
                   <TextField type="email" label="Email" placeholder="Enter Email" variant="outlined" fullWidth required/>
               </Grid>
+              <Grid xs={12} item>
+                  <TextField type="number" label="Phone Number" placeholder="Enter Phone Number" variant="outlined" fullWidth required/>
+              </Grid>
           </Grid>
       </CardContent>
   </Card>
