@@ -4,6 +4,8 @@ import  Card  from '@mui/material/Card';
 import  CardContent  from '@mui/material/CardContent';
 import  Grid  from '@mui/material/Grid';
 import TextField from '@mui/material/TextField';
+import Button from '@mui/material/Button';
+
 
 function ContactMe() {
   return (
@@ -25,6 +27,9 @@ function ContactMe() {
               </Grid>
               <Grid xs={12} item>
                   <TextField multiline rows={5} label="Message" placeholder="Type Your Message" variant="outlined" fullWidth required/>
+              </Grid>
+              <Grid xs={12} item>
+                  <Button type="submit" variant="contained" fullWidth >Submit</Button>
               </Grid>
           </Grid>
       </CardContent>
