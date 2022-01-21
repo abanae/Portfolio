@@ -10,9 +10,10 @@ import "./ContactMe.css";
 
 function ContactMe() {
   return (
-      <Card style= {{maxWidth:650, padding:"4vw 1.5vw" }}>
-          <CardContent>
-              <Typography gutterBottom variant="h5">Contact Me</Typography>
+      <div class="formField">
+      <Card style= {{maxWidth:650, padding:"4vw 1.5vw", backgroundColor:"#e2e8ec" }}>
+          <CardContent style= {{ backgroundColor:"white" }}>
+              <Typography style= {{color:"#e74c3c" }} gutterBottom variant="h2">Contact Me</Typography>
               <Typography variant= "body2" componnent="p" color="textSecondary">If you have any requests or questions don't hesitate to reach out.</Typography>
     <Box component="form">
       <div>
@@ -76,6 +77,7 @@ function ContactMe() {
     </Box>
     </CardContent>
     </Card>
+    </div>
   );
 }
  export default ContactMe;
