@@ -5,12 +5,15 @@ import Button from "@mui/material/Button";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import Grid from "@mui/material/Grid";
+import Typography from "@mui/material/Typography";
 import "./ContactMe.css";
 
 function ContactMe() {
   return (
       <Card style= {{maxWidth:650, padding:"4vw 1.5vw" }}>
           <CardContent>
+              <Typography gutterBottom variant="h5">Contact Me</Typography>
+              <Typography variant= "body2" componnent="p" color="textSecondary">If you have any requests or questions don't hesitate to reach out.</Typography>
     <Box component="form">
       <div>
         <Grid container spacing={1}>
