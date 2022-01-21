@@ -6,6 +6,7 @@ import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
+import SendIcon from '@mui/icons-material/Send';
 import "./ContactMe.css";
 
 function ContactMe() {
@@ -68,8 +69,9 @@ function ContactMe() {
             />
           </Grid>
           <Grid xs={12} item>
-            <Button type="submit" variant="contained" fullWidth>
-              Submit
+             
+            <Button type="submit" variant="contained" endIcon={<SendIcon />}>
+              Send
             </Button>
           </Grid>
         </Grid>
