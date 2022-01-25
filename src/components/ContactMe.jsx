@@ -9,6 +9,7 @@ import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
 import SendIcon from '@mui/icons-material/Send';
 import "./ContactMe.css";
+import  GoogleMaps from "./GoogleMaps";
 
 function ContactMe() {
   return (
@@ -26,11 +27,11 @@ function ContactMe() {
               placeholder="Enter First Name"
               variant="outlined"
               fullWidth
-              required
+              required 
             />
           </Grid>
-          <Grid xs={12} sm={6} item>
-            <TextField
+          <Grid xs={12} sm={6} item> 
+          <TextField 
               label="Last Name"
               placeholder="Enter Last Name"
               variant="outlined"
@@ -90,6 +91,7 @@ function ContactMe() {
             </div>
         </InfoWindow>
       </Map> */}
+<GoogleMaps/>
     </Card>
     </div>
   );
